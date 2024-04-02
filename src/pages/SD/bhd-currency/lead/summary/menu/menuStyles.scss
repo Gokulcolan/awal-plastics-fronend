@@ -1,0 +1,71 @@
+.menu-header-flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.history-header-flex-div-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 50%;
+  padding: 20px 0px;
+}
+
+.history-header-selected {
+  color: rgba(13, 104, 197, 1);
+  font-size: 12px;
+  font-weight: 600;
+  background-color: rgba(225, 238, 255, 1);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.history-header-not-selected {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.history-notes {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.history-header-flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-header-flex-div {
+  display: flex;
+  // align-items: center;
+  justify-content: space-between;
+}
+
+.left-part {
+  width: 70%;
+}
+
+// .MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+//   padding: 10px;
+// }
+
+.menu-header-container {
+  width: 90%;
+}
+
+.custom-outline {
+  border: 1px solid #e4e4e5;
+  color: black;
+  font-weight: 700;
+}
+
+.body-nav {
+  overflow-y: scroll;
+}

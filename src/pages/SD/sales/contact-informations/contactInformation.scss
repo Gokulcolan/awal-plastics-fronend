@@ -1,0 +1,83 @@
+.tableBtn {
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.contactHead {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5px;
+}
+
+.addcontactbtn {
+  background-color: #0071b9;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addContactForm {
+  background-color: white;
+  padding: 2rem;
+}
+
+.cancelBtn {
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.formbtnalign {
+  display: flex;
+  justify-content: center;
+}
+
+.descriptionCard {
+  background-color: #e7f0f9;
+  padding: 20px;
+  margin-top: 10px;
+}
+.CreateBtn {
+  background-color: #0071b9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: flex;
+  margin: auto;
+  cursor: pointer;
+}
+
+.labelCard {
+  background-color: #bad4ef;
+  border-radius:"10px"
+}
+.valueCard {
+  background-color: #f3f7fc;
+}
+
+.MuiTab-root.Mui-selected {
+  font-weight: bold; /* Apply bold font weight to the active tab */
+}
+
+.contactTabsLabel {
+  font-weight: 500 !important;
+  color: black !important;
+}
+.ContactimgCard {
+  padding: 30px 15px;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}

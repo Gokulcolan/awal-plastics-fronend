@@ -1,0 +1,688 @@
+.ppjo-typo {
+  color: black;
+  font-weight: 600;
+  padding: 5px;
+  font-size: 20px;
+}
+.ppjo-status-cards{
+  padding-top: 20px;
+  text-align: center !important;
+  display: flex;
+  gap:10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white !important;
+
+  div{
+    width: 14%;
+    padding: 25px 10px;
+    border-radius: 20px !important;
+    box-shadow:0px 4px 20px 0px #6150E11A !important;
+
+
+    h2{
+      font-weight: 600 !important;
+  padding-top: 5px;
+  font-size: 16px !important;
+    }
+    p{
+      font-size: 26px !important;
+      font-weight: 600 !important;
+      padding-top: 5px;
+    }
+  }
+}
+.ppjo-conversion-cards{
+   padding: 20px;
+  text-align: center !important;
+  display: flex;
+  gap:10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white !important;
+
+  div{
+    width: 24%;
+    padding: 18px 12px;
+    border-radius: 20px;
+    box-shadow:0px 4px 20px 0px #6150E11A !important;
+    
+    h2{
+      font-weight: 600 !important;
+      padding: 0 15px;
+      padding-top: 5px;
+      font-size: 15px !important;
+      height: 55%;
+    }
+    p{
+      padding-top: 7px;
+      font-size: 24px !important;
+      font-weight: 600 !important;
+    }
+  }
+}
+.sale_typo {
+  font-weight: 550;
+  color: white;
+  font-size: 19px;
+}
+
+.ppjo-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  // padding: 10px;
+  padding: 10px  !important;
+}
+.more {
+  font-size: 30px;
+}
+.more_sale {
+  font-size: 30px;
+  color: white;
+}
+.ppjo-main-div {
+  // margin: 20px;
+}
+.totalcard-style {
+  width: 15%;
+  min-width: 180px;
+}
+.total-cards {
+  width: 100%;
+  min-height: 150px;
+  height: 100%;
+}
+
+.total-main {
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  // gap: 10px;
+}
+
+.total-content {
+  // background:linear-gradient(to top right, #0D68C5
+  // 100%, #0D31C5
+  // 100%) !important;
+  height: 100%;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.total-typo {
+  color: white;
+  font-weight: 600;
+  padding-top: 5px;
+  margin: 0;
+  font-size: 16px;
+}
+.total_typo_con {
+  color: white !important;
+  font-weight: 600 !important;
+  padding-top: 10px;
+  font-size: 16px !important;
+}
+.total-count {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  // padding-top: 5px;
+  margin: 0;
+}
+.total_main_pojocon {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px !important;
+}
+.total_content_pojocon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.ppjo_card_con {
+  border-radius: 20px;
+}
+.totalcard_con {
+  padding-top: 30px;
+}
+.total_cards_pojocon {
+  border-radius: 20px;
+  min-width: 300px;
+  width: 24%;
+  padding: 0 25px;
+}
+.daily_main {
+  border-radius: 20px;
+  padding: 20px;
+}
+.daily {
+  padding-top: 20px;
+}
+.daily_ppjo_quto {
+  padding: 10px;
+  height: 100%;
+}
+.daily_ppjo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.daily_div {
+  padding-top: 30px;
+  width: 49%;
+  min-width: 550px;
+}
+
+.pojo_quot_cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  flex-wrap: wrap;
+
+  .daily_ppjo_status{
+    width: 49%;
+    padding: 4px;
+    .daily_total_open {
+      padding: 10px 2px;
+      display: flex;
+      justify-content: space-between;
+    .total-ppjo-cards{
+      display: flex;
+      align-items: center;
+      gap:8px;
+      width: 33%;
+      padding: 10px;
+     
+      .text-container{
+      
+      h3{
+        font-size: 14px !important;
+        color: #65686F !important;
+        font-weight: 500 !important;
+      }
+    p{
+      padding-top: 5px;
+      color:#6150E1;
+      font-weight: 600;
+      font-size: 16px;
+    }
+     }
+    }
+    
+    
+    }
+  
+  }
+  .daily_quotation{
+    width: 49%;
+   
+    .quot_main_div {
+      display: flex;
+      justify-content: space-between;
+      
+      .quota_main_card{
+        border-radius: 10px;
+        padding:12px 8px;
+        background-color: #fee2e6;
+      //  height: 110px;
+        text-align: center;
+        max-width: 24%;
+        h3{
+          font-weight: 500 !important;
+          font-size: 14px !important;
+          height: 60%;
+          padding:0 8px;
+          padding-bottom: 10px;
+        }
+        p{
+          padding-top: 7px;
+          color: #FF1540 !important;
+          font-size: 16px;
+          font-weight: 600 !important;
+        }
+      }
+    }
+  }
+  // flex-wrap: wrap;
+}
+.pojo_quot_content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+}
+
+.pojo_quot_label {
+  font-size: 14px !important;
+  color: #65686F !important;
+  font-weight: 400;
+}
+
+.quot_main_div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.quota_main_card {
+  border-radius: 10px;
+  background-color: #fee2e6;
+  height: auto;
+  text-align: center;
+  max-width: 24%;
+
+  .quota_main_card-sub {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+.quot_label {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.wip_main_card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  // height: 220px;
+}
+.sales-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00a1ff;
+}
+
+  
+
+.sales_card_content {
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+
+  .sales_card_content_sub {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.count_color {
+  color: #ff1540;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.count_colorr {
+  color: #ff1540;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.sales_label {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  color: #65686F !important;
+}
+
+.summary_main {
+  background-color: #e8f1ff;
+}
+
+.sale_wip_maincard {
+  display: flex;
+  justify-content: space-between;
+  // gap: 30px;
+  .sales-order{
+    width: 49%;
+  
+    .sales_card_content {
+      padding: 10px 0;
+      display: flex;
+      text-align: center;
+      justify-content: space-evenly;
+      div{
+       padding: 10px;
+       width: 24%;
+      
+       border-right: 1px solid rgba(0, 0, 0, 0.1) !important;
+       h3{
+        line-height: 1.5;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        color: #65686F !important;
+        height: 60%;
+        
+       }
+       p{
+        color: #00437C;
+        font-weight: 600;
+      font-size: 24px !important;
+      padding-top: 10px;
+    
+       }
+      }
+      div:last-child{
+        border-right:none !important;
+        h3{
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+.wip{
+  width: 49%;
+  .wip_main_card {
+    border-radius: 20px;
+    // height: 25vh;
+    .wip-content {
+      display: flex;
+      justify-content: space-between;
+      background-color: #00437c;
+    }
+    .wip_card_content{
+      padding: 10px;
+      display: flex;
+      text-align: center;
+      justify-content: space-evenly;
+    
+      div{
+        padding: 10px;
+        width: 24%;
+       
+        border-right: 1px solid rgba(0, 0, 0, 0.1) !important;
+        h3{
+        
+         font-weight: 600 !important;
+         font-size: 14px !important;
+         color: #65686F !important;
+         height: 60%;
+         
+        }
+        p{
+         color: #00437C;
+         font-weight: 600;
+       font-size: 24px !important;
+       padding-top: 10px;
+     
+        }
+       }
+       div:last-child{
+         border-right:none !important;
+         h3{
+           font-size: 16px !important;
+         }
+       }
+    }
+  }
+  
+  
+
+}
+}
+
+.summary_cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .summary-updates{
+    border-left: 10px solid #0D68C5 !important;
+    border-radius: 6px;
+    box-shadow: 0px 4px 20px 0px #6150E11A !important;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 14px !important;
+    margin: 10px 0 !important;
+  }
+  .customer-outstanding{
+    border-left: 10px solid #FF1540 !important;
+    border-radius: 6px;
+    box-shadow: 0px 4px 20px 0px #6150E11A !important;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 14px !important;
+    margin: 10px 0 !important;
+  }
+  .total-payouts{
+    border-left: 10px solid  #FFBD15 !important;
+    border-radius: 6px;
+    box-shadow: 0px 4px 20px 0px #6150E11A !important;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 14px !important;
+    margin: 10px 0 !important;
+  }
+}
+.pipe_prod_card {
+  width: 48%;
+}
+
+.pipeline_main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.font_style {
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+
+.linear-gradient {
+  background: linear-gradient(141deg, #0d68c5, #0d31c5);
+}
+.linear-gradient_pink {
+  background: linear-gradient(141deg, #ff1540, #bd0022);
+}
+
+.linear-gradient_purple {
+  background: linear-gradient(141deg, #6150e1, #2c13e4);
+}
+
+.linear-gradient_green {
+  background: linear-gradient(141deg, #00a000, #008000);
+}
+
+.linear-gradient_yellow {
+  background: linear-gradient(141deg, #ffbd15 100%, #c88f00 100%);
+}
+
+.linear-gradient_blue {
+  background: linear-gradient(141deg, #4a8ae6 100%, #4a5be6 100%);
+}
+
+.daily-one {
+  display: flex;
+  gap: 20px;
+}
+
+.daily_flexx {
+  display: flex;
+  gap: 50px;
+}
+
+//Media Query
+
+@media (min-width: 1270px) and (max-width: 2200px) {
+  .total-main {
+
+  }
+}
+@media (min-width: 1270px) and (max-width: 1609px) {
+
+}
+
+// @media (min-width: 320px) and (max-width: 380px) {
+//   .total_cards_pojocon {
+//     max-height: 25vh;
+//     width: 250px;
+//   }
+
+//   .total_main_pojocon {
+//     justify-content: space-evenly;
+//   }
+//   .daily-one {
+//     display: flex;
+//     gap: 0px;
+//   }
+//   .pojo_quot_cards {
+//     display: flex;
+//     justify-content: space-evenly;
+//     flex-wrap: wrap;
+//   }
+
+//   .daily_div {
+//     padding-top: 30px;
+//     width: 100%;
+//   }
+// }
+
+// @media (min-width: 381px) and (max-width: 480px) {
+//   .total_cards_pojocon {
+//     max-height: 20vh;
+//     width: 320px;
+//   }
+
+//   .total_main_pojocon {
+//     justify-content: space-evenly;
+//   }
+  
+// }
+
+// @media (min-width: 481px) and (max-width: 680px) {
+//   .total_cards_pojocon {
+//     max-height: 20vh;
+//     width: 400px;
+//   }
+//   .total_main_pojocon {
+//     justify-content: space-evenly;
+//   }
+
+// }
+
+@media (min-width: 681px) and (max-width: 780px) {
+  .total_cards_pojocon {
+    max-height: 25vh;
+    width: 300px;
+  }
+  .total_main_pojocon {
+    justify-content: space-evenly;
+  }
+}
+
+// @media (min-width: 781px) and (max-width: 900px) {
+//   .total_cards_pojocon {
+//     max-height: 20vh;
+//     width: 300px;
+//   }
+//   .total_main_pojocon {
+//     justify-content: space-evenly;
+//   }
+// }
+
+// @media (min-width: 901px) and (max-width: 1100px) {
+//   .total_cards_pojocon {
+//     max-height: 20vh;
+//     width: 400px;
+//   }
+//   .total_main_pojocon {
+//     justify-content: space-evenly;
+//   }
+//   .pipeline_main {
+//     display: flex;
+//     flex-wrap: wrap !important;
+//   }
+
+//   .daily_ppjo_quto {
+//     height: 30vh;
+//   }
+// }
+
+// @media (min-width: 1101px) and (max-width: 1200px) {
+//   .total_cards_pojocon {
+//     max-height: 20vh;
+//     width: 500px;
+//   }
+//   .total_main_pojocon {
+//     justify-content: space-evenly;
+//   }
+// }
+
+// @media (min-width: 1201px) and (max-width: 1380px) {
+//   .total_cards_pojocon {
+//     max-height: 25vh;
+//     width: 550px;
+//   }
+//   .total_main_pojocon {
+//     justify-content: space-evenly;
+//   }
+// }
+
+// @media (min-width: 1381px) and (max-width: 1415px) {
+//   .total_cards_pojocon {
+//     max-height: 25vh;
+//     width: 580px;
+//   }
+//   .total_main_pojocon {
+//     justify-content: space-evenly;
+//   }
+// }
+
+// // @media (min-width: 1416px) and (max-width: 1550px) {
+// //   .wip_card_content{  
+  
+
+// //     div{
+// //       h3{
+      
+// //        font-weight: 600 !important;
+// //        font-size: 14px !important;
+      
+// //        height: 60%;
+       
+// //       }
+// //       p{
+// //        font-weight: 600;
+// //      font-size: 10px !important;
+// //      padding-top: 10px;
+   
+// //       }
+// //      }
+    
+// //   }
+// // }
+
+// @media (min-width: 1551px) and (max-width: 1800px) {
+//   .total_cards_pojocon {
+//     // max-height: 25vh;
+//     width: 360px;
+//   }
+//   .total_main_pojocon {
+//     justify-content: space-between;
+//   }
+// }
+
+// @media (min-width: 1801px) and (max-width: 2200px) {
+//   .total_cards_pojocon {
+//     // max-height: 124px !important;
+//     width: 360px;
+//   }
+//   .total_main_pojocon {
+//     justify-content: space-between;
+//   }
+// }

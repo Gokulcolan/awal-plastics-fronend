@@ -1,0 +1,171 @@
+.cardID {
+  font-size: 12px;
+  color: grey;
+}
+
+.cardHead {
+  border-bottom: 1px solid rgb(243, 239, 239);
+  padding: 10px;
+}
+
+.alignRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardPaddingRemove {
+  padding: 5px !important;
+}
+
+.cardImageCenter {
+  width: 130px;
+  height: 150px;
+  display: flex;
+  margin: auto;
+  object-fit: cover;
+  padding: 10px 0px;
+}
+
+.cardBorder {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 10px 5px 0px 5px !important;
+  margin: 10px 5px;
+  border-radius: 5px;
+}
+.cardIcon {
+  font-size: 18px;
+  margin: 0px 10px;
+}
+
+.bhdDate {
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.teamsData {
+  font-size: 16px;
+}
+
+.linechart {
+  margin-top: 15px;
+}
+
+.progressValue {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.cardEffects {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: white;
+  border-radius: 0px;
+  box-shadow: none;
+  padding: 1px !important;
+  width: 100%;
+  min-width: 250px !important;
+  div {
+    padding: 0;
+    .teamSalesHeadingDiv {
+      font-size: 14px;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+
+      .arrowDiv {
+        min-width: 120px;
+        display: flex;
+        justify-content: space-between;
+
+        .arrow {
+          cursor: pointer;
+          color: #ff1540;
+          font-size: 30px;
+          display: inline-block;
+          transition: 0.1s;
+          border-radius: 50%;
+
+          &:hover {
+            background-color: #ff154018;
+          }
+          &:active {
+            box-shadow: 0px 0px 0px 2px #ff154042;
+          }
+        }
+        .arrowDisabled {
+          transform: scale(0);
+          transition: 0.5s ease-in-out;
+        }
+        .arrowEnable {
+          transform: scale(1);
+          transition: 0.5s ease-in-out;
+        }
+      }
+      .teamSalesHeading {
+        width: -webkit-fill-available;
+      }
+    }
+  }
+  .CardContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .cardTitles {
+      font-size: 16px;
+      font-weight: 600;
+      padding: 10px 30px;
+      border-bottom: 1px solid #ddd;
+    }
+    .currencyYearDiv {
+      box-shadow: 0px 0px 5px 0px #ddd;
+      display: flex;
+      align-items: flex-start;
+      padding: 15px;
+      height: 120px;
+
+      .currencyYearDivSub {
+        height: 100%;
+      }
+
+      .salesCurrencyDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100% !important;
+        .bhdValue {
+          font-weight: bolder;
+          font-size: 18px;
+          .bhd {
+            font-weight: 500;
+            font-size: 10px;
+            margin-right: 3px;
+          }
+        }
+      }
+    }
+    .leaderboardDiv {
+      box-shadow: 0px 0px 5px 0px #ddd;
+
+      .leaderboardContentParent {
+        padding: 10px 0px;
+        .leaderboardContent {
+          padding: 3px 30px;
+          .teamsData {
+            display: flex;
+            justify-content: space-between;
+            min-width: 80px;
+            font-size: 14px;
+
+            span:first-child {
+              margin-right: 5px;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+    .linechartDiv {
+      box-shadow: 0px 0px 5px 0px #ddd;
+    }
+  }
+}

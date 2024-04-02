@@ -1,0 +1,109 @@
+.kpi-dashboard-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+
+   
+
+  
+    // chart styles starts here
+    .chart-main-container {
+      width: 100%;
+      .chart-row-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        margin-bottom: 20px;
+        .box-contain{
+          padding: 62px 0;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          row-gap: 10px;
+          background-color: white;
+          justify-content: center;
+        }
+  
+        .first-chart-container {
+          width: 50%;
+        }
+  
+        .second-chart-container {
+          width: 50%;
+        }
+      }
+    }
+  
+    .chart-container {
+      border: 1px solid rgba(33, 34, 44, 0.12);
+      border-radius: 5px;
+  
+      .chart-heading {
+        border-bottom: 1px solid rgba(33, 34, 44, 0.12);
+        padding: 10px 20px;
+        letter-spacing: 1px;
+        font-size: 9px !important;
+        background-color: white;
+        .chart-heading-flex{
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          padding-bottom: 5px;
+        }
+        p{
+          font-size: 10px;
+          font-weight: 600;
+        }
+      }
+      .chart-footer{
+        border-top: 1px solid rgba(33, 34, 44, 0.12);
+        padding: 10px 20px;
+        font-size: 14px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+      }
+    }
+    // chart styles ends here
+  }
+
+  @media (max-width : 992px){
+    .chart-row-container{
+      width: 100% !important;
+      flex-direction: column;
+    }
+    .first-chart-container {
+      width: 100% !important;
+    }
+
+    .second-chart-container {
+      width: 100% !important;
+    }
+    
+  }
+
+  @media (max-width : 576px){
+    .second-chart-container {
+      width: 100% !important;
+    }
+    .date-outstanding-container {
+      // width: 100% !important;
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .chart-container{
+      width: 100% !important;
+    }
+    .inventory-date-outstanding-container{
+      width: 100% !important;
+    }
+    .receivable-date-outstanding-container{
+      width: 100% !important;
+    }
+  }
+  
+  

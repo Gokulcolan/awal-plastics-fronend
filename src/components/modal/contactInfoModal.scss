@@ -1,0 +1,72 @@
+.modalTitle {
+  background-color: #0071b9;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  font-size: 14px !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.modelFonts{
+  font-size: 14px !important;
+}
+
+.ContactModalPad {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.modalBtn {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  margin: auto;
+  cursor: pointer;
+}
+.RequestModalBtn {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  margin: auto;
+  cursor: pointer;
+}
+
+.modalImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modalHead {
+  display: flex;
+  justify-content: space-between; /* This will push the title and icon to opposite ends */
+  align-items: center; /* This will vertically center the items */
+  padding: 15px; /* Adjust padding as needed */
+  background-color: #0071b9;
+  border-radius: 20px;
+  color: white;
+}
+
+.modalHeadCreation {
+  display: flex;
+  justify-content: space-between; /* This will push the title and icon to opposite ends */
+  align-items: center; /* This will vertically center the items */
+  border-radius: 20px;
+  color: black;
+}
+
+.modalTitle1 {
+  flex-grow: 1; /* This will make the title take up remaining space */
+}
+
+.closeIcon {
+  cursor: pointer; /* Add this to indicate that the icon is clickable */
+}

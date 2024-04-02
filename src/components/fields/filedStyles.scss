@@ -1,0 +1,250 @@
+.formik-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px !important;
+
+  p {
+    margin-top: 0px;
+  }
+}
+.formik-filled-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px !important;
+
+  p {
+    margin-top: 0px;
+  }
+}
+
+label.label-risk-score {
+  color: #959595;
+  white-space: nowrap;
+}
+
+.formik-select-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+// .css-3qbkez-MuiSelect-icon {
+//   color: black !important;
+// }
+
+.custom_radio_icon_checked {
+  height: 18px;
+  width: 18px;
+  background: #4844d7;
+  border: 1px solid #e9e9f0;
+  border-radius: 4px;
+}
+.custom_radio_icon {
+  height: 18px;
+  width: 18px;
+  background: #d5d5d5;
+  border: 1px solid #e9e9f0;
+  border-radius: 4px;
+}
+
+/* Date Picker CSS starts here */
+#label-modal {
+  padding: 0px 0px 10px 0px;
+  color: #4f515e;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.label-modal-upload {
+  color: #4d4f5c;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 7px 14px !important;
+}
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+  justify-content: flex-end !important;
+}
+
+.hidden-label {
+  display: none;
+}
+
+.rdp-months {
+  color: black;
+}
+
+.rdp-caption_label {
+  font-size: 16px !important;
+}
+
+.rdp-nav_icon {
+  height: 12px !important;
+  width: 12px !important;
+}
+
+.rdp-head_cell {
+  text-transform: capitalize !important;
+}
+
+.rdp-button:not([disabled]) {
+  font-size: 13px !important;
+}
+
+.rdp-day_selected {
+  background-color: #4844d7 !important;
+}
+
+.rdrMonth {
+  padding: 0 0.833em 0 0.833em !important;
+}
+
+/* Date Picker CSS ends here */
+
+/* Upload File CSS starts here */
+
+.file-input {
+  width: 100%;
+  padding: 9px 13px;
+  font-size: 16px !important;
+  border: 1px solid #dbdbdb !important;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.file-input-container {
+  position: relative;
+  overflow: hidden;
+  margin-right: 3px;
+  .close {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    font-size: 10px;
+    padding: 0px 3px;
+    border-radius: 50px;
+    background: #dfe0e1;
+  }
+  .error {
+    color: red;
+    padding: 10px 0px;
+  }
+}
+
+.choose-file-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f5f6fa;
+  color: #52525c;
+  font-weight: 800;
+  border: none;
+  padding: 11px 15px;
+  cursor: pointer;
+  font-size: 14px !important;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.dialog-sheet {
+  border: 1px solid #dbdbdb !important;
+  // border-radius: 5px !important;
+  z-index: 20 !important;
+  background-color: white !important;
+  margin-top: 10px !important;
+  padding: 10px;
+  border-radius: 5px;
+  // left: -4px !important;
+  // transform: translate(0px, 317px) !important;
+}
+
+/* Upload File CSS ends here */
+.field-required {
+  color: #d74844;
+}
+.active-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: green;
+  margin-right: 10px;
+}
+.non-active-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(176, 176, 176);
+  margin-right: 10px;
+}
+.select-menu-item > div > div {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.common-text-area {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 6px 12px;
+  // height: 134px;
+  border-radius: 5px;
+  border: 2px solid #dadada;
+  // overflow-y: scroll;
+  // max-height: 20px;
+}
+.common-text-area:focus {
+  border: 2px solid #2e7fd0;
+  outline: none;
+}
+.text-area-error {
+  border: 1px solid red !important;
+}
+
+.text-area-error-text {
+  color: #ff0000db !important;
+  font-size: 12px !important;
+  margin: 0px 10px !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.DateIconWithText-container {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+
+  .DateIconWithText-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    .dateIcon-text-container {
+      input {
+        padding: 8px 2px 2px 2px;
+      }
+    }
+  }
+
+  // .dialog-sheet{
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+}
+
+.select-menu-item {
+  .MuiInputBase-root {
+    // height: 45px; /* Adjust the height as needed for select drop down field */
+    // border: 1px solid black;
+  }
+}

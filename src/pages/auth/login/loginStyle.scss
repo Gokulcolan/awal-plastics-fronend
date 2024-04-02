@@ -1,0 +1,599 @@
+.loginParent {
+  height: 100vh;
+  transition: 0.5s;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+
+  .loginParentSub {
+    height: 100%;
+    width: 100%;
+    max-height: 700px;
+
+    max-width: 1600px;
+    transition: 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transform: translate(20%);
+    animation: parentMove 0.5s ease-in-out forwards;
+    animation-delay: 2s;
+    .allLoginImgDiv {
+      overflow: hidden;
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+      position: absolute;
+      display: none;
+      z-index: 1;
+    }
+    .allLogin {
+      max-height: 700px;
+
+      min-width: 700px;
+      width: 47%;
+      height: 95%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      // border: 1px solid black;
+      border-radius: 50%;
+      transition: 0.5s ease-in-out;
+      transform: translate(0%);
+      // animation: allLogin 0.5s ease-in-out forwards;
+      // animation-delay: 1.5s;
+
+      .colorDiv {
+        opacity: 0.2;
+        top: -70%;
+        left: -5%;
+        position: absolute;
+        content: "";
+        width: 800px;
+        height: 800px;
+        z-index: 2;
+        border-radius: 50%;
+        transition: 0.5s;
+        animation: colorBallMove 0.5s ease-out forwards;
+        animation-delay: 2s;
+
+        &::before {
+          background: linear-gradient(
+            -150deg,
+            #ffdd55,
+            #f7aebf,
+            #006aaf,
+            #6150e1
+          );
+
+          border-radius: 50%;
+          display: block;
+          content: "";
+          width: 100%;
+          height: 100%;
+          transition: 1s;
+          transform: rotate(36deg);
+          animation: colorChange 1s ease-out forwards;
+          animation-delay: 0.1s;
+        }
+      }
+      .rotativeDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s ease-in-out;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        animation: wheelRotate 0.5s ease-out forwards;
+        transform: rotate(-30deg);
+        animation-delay: 0.2s;
+        z-index: 1;
+
+        .loginChild {
+          cursor: pointer;
+          min-width: 100px !important;
+          min-height: 100px !important;
+          border-radius: 30%;
+          color: white;
+          // font-size: 10px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          z-index: 2;
+          .innerBgImage {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 140px;
+            height: 140px;
+            transition: 0.3s;
+
+            &:hover {
+              transform: scale(1.1);
+            }
+            .bgImg {
+              height: 100%;
+              position: absolute;
+              z-index: -1;
+            }
+            p {
+              font-weight: bold;
+              font-size: 17px;
+              margin-top: 1px;
+            }
+          }
+        }
+      }
+      .allLoginCenterDiv {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 260px;
+        height: 260px;
+        border: 1px solid transparent;
+        background-image: conic-gradient(
+          #2188f1,
+          #ff1540,
+          #00b976,
+          #ffbb0f,
+          #1557ff,
+          #ec31c7,
+          #ff7a00,
+          #008000
+        );
+        border-radius: 50% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+
+        &::before {
+          content: "";
+          display: block;
+          margin: auto;
+          border-radius: 50% !important;
+          position: absolute;
+
+          width: 100%;
+          height: 100%;
+          background-color: white;
+        }
+      }
+      .centerDivSub {
+        position: absolute;
+        min-width: 150px;
+        min-height: 150px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 0px #e2e2e2;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+
+        .mainLogo {
+          width: 100px;
+        }
+      }
+    }
+    .loginCridentialMain {
+      height: 100%;
+      padding: 20px;
+      width: 35%;
+      opacity: 0;
+      animation: loginCridAnime 1s ease-in-out forwards;
+      animation-delay: 2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .loginCridential {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: flex-start;
+        min-width: 450px;
+        width: 100%;
+        height: 90%;
+        background-color: #0d69c540;
+        border-radius: 7%;
+        transition: 0.2s;
+        overflow: hidden;
+
+        .loginMainHeading {
+          margin: 20px auto;
+          color: #ff1540;
+        }
+        .loginCridentialParent {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          width: 200%;
+          transform: translate(0%);
+          transition: 0.5s ease-in-out;
+          // border: 1px solid black;
+
+          .loginCridentialSub {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0px;
+            gap: 20px;
+            // justify-content: center;
+            width: 35%;
+            height: 90%;
+            // border: 1px solid black;
+
+            .loginCridentialSubChild {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              gap: 25px;
+              transition: 0.3s;
+              // border: 1px solid black;
+
+              .CridentialSubChilds {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                .subChildsTextfield {
+                  border: none !important;
+                  width: 100%;
+                  min-height: 10px !important;
+
+                  div {
+                    fieldset {
+                      border: 1px solid #ddd;
+                    }
+                  }
+                }
+                .subChildsTextfield::placeholder {
+                  font-size: 10px !important;
+                }
+                label {
+                  color: #333;
+                  font-size: 14px;
+
+                  // padding-left: 15px;
+                }
+
+                .CridentialSubChildsLeft {
+                  display: flex;
+                  align-items: center;
+                  gap: 10px;
+
+                  label {
+                    font-size: 12px;
+                    padding-left: 1px;
+                    cursor: pointer;
+                  }
+                }
+                .CridentialSubChildsRight {
+                  font-size: 12px;
+                }
+                .signInBtn {
+                  height: 30px !important;
+                  background-color: #007aff;
+                  border: none;
+                  color: White;
+                  font-size: 12px;
+                }
+                .googleSignInBtn {
+                  border: none;
+                  height: 30px !important;
+                  background-color: #333;
+                  font-size: 9px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+
+                  .gLogo {
+                    width: 25px;
+                    margin-right: 10px;
+                  }
+                  p {
+                    margin-top: 2px;
+                  }
+                }
+              }
+
+              .dFlex {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+              }
+              .newUserLink {
+                margin: 0 auto;
+                font-size: 12px;
+                a {
+                  margin-left: 10px;
+                }
+              }
+            }
+            .divide {
+              padding-top: 20px;
+              border-top: 1px solid #cdcdcd;
+            }
+          }
+        }
+        .logSlideAdd {
+          animation: logSlideAnimeAdd 0.7s ease-in-out forwards;
+          transform: translate(-50%);
+        }
+        .logSlideRemove {
+          animation: logSlideAnimeRemove 0.7s ease-in-out forwards;
+          transform: translate(-50%);
+        }
+      }
+      .HRMsBgClass {
+        background-color: #0d69c540;
+      }
+      .SalesBgClass {
+        background-color: #de052c40;
+      }
+      .procurementBgClass {
+        background-color: #00a96c40;
+      }
+      .productionBgClass {
+        background-color: #ffbf1d40;
+      }
+      .qualityBgClass {
+        background-color: #043fd340;
+      }
+      .installationBgClass {
+        background-color: #d235b240;
+      }
+      .maintenancesBgClass {
+        background-color: #dd6b0040;
+      }
+      .financeBgClass {
+        background-color: #008d0040;
+      }
+    }
+  }
+}
+
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  margin-top: 4px;
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background: white;
+  height: 19px;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  right: 0.3em;
+  bottom: 0.25em;
+  transform: translateX(150%);
+  background-color: #ff1540;
+  border-radius: inherit;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.slider:after {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 0.3em;
+  bottom: 0.25em;
+  background-color: #cccccc;
+  border-radius: inherit;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hrmsColor:before {
+  background-color: #1575d6;
+}
+
+.salesColor:before {
+  background-color: #ef0d36;
+}
+
+.procurementColor:before {
+  background-color: #00a569;
+}
+.productionColor:before {
+  background-color: #ffbc15;
+}
+.qualitycolor:before {
+  background-color: #0642da;
+}
+.installationcolor:before {
+  background-color: #d135b2;
+}
+.maintenancescolor:before {
+  background-color: #dc6a00;
+}
+.financecolor:before {
+  background-color: #008e00;
+}
+
+.switch input:focus + .slider {
+  box-shadow: 0 0 1px #ff1540;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateY(0);
+}
+
+.switch input:checked + .slider::after {
+  transform: translateX(-150%);
+}
+
+@media only screen and (max-width: 1200px) {
+  .loginParentSub {
+    max-height: 100% !important;
+    animation: none !important;
+    transform: translate(0%) !important;
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+
+    .allLogin {
+      height: 100% !important;
+      display: none !important;
+    }
+    .loginCridential {
+      height: fit-content !important;
+    }
+    .allLoginImgDiv {
+      background-color: white !important;
+      display: block !important;
+      animation: LoginImgDivAnime 1s ease-in-out forwards;
+      animation-delay: 1s;
+      transition: 0.3s;
+    }
+    .allLoginImg {
+      width: 100% !important;
+      background-color: white;
+      animation: allLoginImg 1s ease-in-out forwards;
+    }
+  }
+}
+
+// Animations
+
+@keyframes LoginImgDivAnime {
+  0% {
+    // transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    // transform: scale(0);
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@keyframes allLoginImg {
+  0% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes wheelRotate {
+  0% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes colorBallMove {
+  0% {
+    top: -70%;
+    left: -5%;
+    width: 800px;
+    height: 800px;
+  }
+  100% {
+    top: 55%;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+  }
+}
+@keyframes colorChange {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes allLogin {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(-45%);
+  }
+}
+@keyframes loginCridAnime {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  100% {
+    opacity: 1;
+    display: flex;
+  }
+}
+@keyframes parentMove {
+  0% {
+    transform: translate(20%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+@keyframes logSlideAnimeAdd {
+  0% {
+    transform: translate(0%);
+  }
+  60% {
+    transform: translate(-51%);
+  }
+  80% {
+    transform: translate(-49%);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}
+@keyframes logSlideAnimeRemove {
+  0% {
+    transform: translate(-50%);
+  }
+  60% {
+    transform: translate(1%);
+  }
+  80% {
+    transform: translate(-1%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
